@@ -1,0 +1,390 @@
+
+/*start navbar*/
+.navbar-nav{
+    font-size: 21px;
+}
+.navbar-header p{
+    font-size: 50px;
+    color:#777;
+     margin: 16px 27px 10px;
+
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    margin-top: 23px;
+}
+.navbar-default {
+    background-color: rgba(248, 248, 248, 0);
+    border: none;
+}
+#Home .banner{
+    text-align: center;
+    background:url("../images/slider.jpg") no-repeat;
+    height: 650px;*/
+}
+.banner .banner-info{
+    margin-top: 8%;
+}
+
+.banner .banner-info h1{
+    font-size: 46px;
+    color: #FFF;
+}
+.banner .banner-info p{
+        margin: 0 0 27px;
+    font-size: 22px;
+    color: #FFF;
+}
+input, button, select, textarea{
+    font-size: 24px;
+    margin-bottom: 71px;    
+}   
+
+.banner .banner-info .overlay-detail a i{
+   color: #fff; 
+       
+}
+.btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
+        color:#FFF;
+         font-size: 18px; 
+}
+.fa-angle-down:before{
+    font-size: -webkit-xxx-large;
+}
+/*end navbar*/
+/*start about*/
+.about{
+    padding-top: 20px;
+    }
+.about img{
+    width: 100%;
+        height: 434px;
+            border-radius: 10%;
+}
+.about  h1{
+        margin: 0 0px 42px 48px;
+}
+.about a{
+        display: block;
+    margin-left: 139px;
+        margin-top: 15px;
+}
+/*end about*/
+/*Start features*/
+.features{
+    text-align: center;
+}
+
+.features .fa{
+        color: #009fe3;
+    font-size: 60px;
+}
+.features hr{
+
+
+border-top: 2px solid #2196F3;
+    width: 64px;
+}
+.features .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.features .row .feat{
+    background-color:#f2f2f2;
+    margin-bottom: 20px;
+    padding: 20px;
+        height: 400px;
+}  
+.features > p{
+    margin-bottom: 30px;
+        padding: 0 15%;
+}
+/*End features*/
+/*Start semi*/
+.semi{
+    text-align: center;
+    background-color: #006583;
+    color: #FFF;
+        margin-bottom: 20px;    
+}
+.semi div{
+padding: 15px;
+}
+.semi .fa{
+    font-size: 60px;
+}
+.semi hr{
+    border-top: 2px solid #2196f3;
+    width: 97px;
+}
+/*End semi*/
+/*Start contact*/
+.contact {
+    text-align:center;
+    background:url("../images/slider3.jpg") no-repeat; 
+    color: #FFF;
+   
+}
+.contact .color{
+    height: 650px;
+     background-color:rgba(84, 97, 103, 0.54);
+     position: relative;
+}
+.contact .color button{
+    background-color: green;
+        margin-left: -66px;
+}
+.contact p {
+    margin: 44px 10%;
+}
+.contact .person{
+    margin-bottom: 85px;
+}
+.contact .person img{
+
+    height: 85px;
+    border-radius: 64%;
+}
+.contact .form{
+    background-color: #2e98cc;
+    max-height: 126px;
+    padding-top: 1px;
+    max-width: 412px;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1200px){
+    .contact .form{
+            margin: 0 397px;
+    }
+}
+@media (max-width: 460px){
+    .contact .form{
+            width:100% ;
+    }
+    .contact .form input{
+            width:98% ;
+    }
+}
+
+/*End contact*/
+/*Start footr*/
+footer{
+    background-color: #383f49;
+         
+}
+@media (max-width: 460px){
+    footer{
+         padding-top: 93px;
+}
+}
+footer h2{
+    color: #FFF;
+}
+footer h1{
+    color: #FFF;
+}
+footer ul {
+ list-style: none;
+
+}
+footer ul li{
+    color: #575d64;
+    margin-left: -38px;
+}
+footer hr{
+    border-top: 2px solid #444b55;
+}
+footer p{
+    color: #8c7063;
+}
+/*End Footer*/
+/****************************************************************************/
+/*Start page features*/
+/*Start NavBar*/
+.banner .start{
+    background:url("../images/slider1.jpg")no-repeat;
+    height:400px; 
+    text-align: center;
+    color: #FFF;
+    padding-top: 130px;
+}
+/*End NavBar*/
+/*start description*/
+.description .desc{
+    border: 10px solid rgba(132, 56, 56, 0.1);
+    border-radius: 17%;
+    margin-top: 105px;
+    height: 270px;
+    padding-top: 32px;
+    text-align: center;
+}
+@media (max-width: 480px){
+  .description .desc{
+   border: 7px solid rgba(132, 56, 56, 0.1);
+    margin-bottom: 30px;
+    padding-top: 0;
+}  
+}
+.description  img{
+    width: 70%;
+    height: 70%;
+    margin-left: 70px;
+}
+/*End description*/
+/*End page features*/
+
+/*Start Pages Prices */
+/*Start Price */
+.price-bar{
+  background-color:#f2f2f2;
+    height: 380px;
+    width: 650px;
+    margin: auto;
+    /*margin-top: 163px;*/
+    padding-top: 13px;
+}
+
+.price .go{
+    color: #FFF;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.price .price-bar h1{
+color:#24323b; 
+}
+.price .price-bar ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.price .price-bar ul li{
+    float: left;
+    clear: both;
+}
+.price .price-bar ul li i{
+    color: #009de0;
+}
+.price .price-bar .left-list{
+    border-right: 2px solid #009de0;
+    padding-bottom: 40px;
+}
+.price .price-bar button{
+   width: 650px;
+    height: 82px;
+    background: #00b683;
+    margin-top: 40px;
+}
+.prices .features{
+    margin-top: 75px;
+}
+@media (max-width: 760px){
+.prices .features {
+    margin-top: 10%;
+    }
+    .price .price-bar .left-list{
+        border-right: none;
+    }
+}
+@media(max-width: 1200px){
+ .prices .features {
+    margin-top: 200px;
+    } 
+    .price-bar{
+    height:502px;
+    width: 100%;
+    }
+    .price .price-bar button{
+        width: 92%;
+    }
+}
+@media(max-width: 460px){
+ .prices .features {
+    margin-top: 350px;
+    } 
+}
+/*End Price */
+/*End Pages Prices */
+
+/*Start Frequently questions*/
+.questions{
+    margin-bottom: 40px;
+}
+.questions h1{
+    text-align: center; 
+}
+/*End Frequently questions*/
+
+/*Start section account*/
+.account{
+    padding-top: 45px;
+background-color:#00b683;
+color: #FFF;
+}
+.account button{
+    background-color:#00b683; 
+}
+/*End section account*/
+/*start section log-in*/
+.log-in {
+    background:url("../images/slider.jpg") no-repeat; 
+    height: 100%;
+    padding-top: 20px;
+}
+.log-in h1{
+    color: #FFF;
+}
+.log-in .content{
+    margin:auto;
+    width: 75%;
+    background-color: #FFF;
+    margin-bottom: 35px;
+}
+.log-in .content div{
+    padding-right: 30px;
+}
+.log-in .content h2{
+    margin-bottom: 35px;
+}
+.log-in .content .ldiv{
+    padding-top: 50px;
+    border-right:2px solid #eee;
+}
+.log-in .content .ldiv span{
+    font-size: 20px;
+}
+.log-in .content .ldiv p{
+    margin: 0px 25px 22px;
+}
+.log-in .content .ldiv ul li{
+    margin-bottom: 18px;
+}
+.log-in .content form input{
+    margin-bottom: 10px;
+    display: inherit;
+    margin-left: 4%;
+    width: 94%;
+    background-color: #f7f7f7;
+    font-size: 20px;
+}
+.log-in .content button{
+    background-color: #2992d6;
+    color: #FFF;
+    width: 90%;
+}
+.log-in .content .check{
+    position: relative;
+    right: 101px;
+    top: 15px;
+}
+.log-in .content p{
+    margin: 0 0 10px;
+    position: relative;
+    bottom: 12px;
+}
+/*end section log-in*/
+
+
+
+
+
+    
